@@ -1,0 +1,6 @@
+:root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, sans-serif; color: #27292b; background: #f7f7f5; }
+* { box-sizing: border-box; } body { min-height: 100vh; margin: 0; padding: 36px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+img { object-fit: contain; } h1 { font-size: 34px; letter-spacing: -1.4px; margin: 10px 0 4px; } .intro { color: #73797d; font-size: 14px; margin: 4px 0 25px; }
+p { max-width: 340px; line-height: 1.7; font-size: 13px; } button { border: 0; border-radius: 13px; background: #087bff; color: white; font: inherit; font-size: 14px; padding: 13px 22px; margin: 9px 0 21px; cursor: pointer; }
+button:hover { background: #006bdd; } button:focus-visible { outline: 3px solid #0867cb; outline-offset: 4px; } small { font-size: 10px; line-height: 1.8; color: #787d80; }
+body:not(.state-on, .state-off) :is(.state-on, .state-off), body.state-on :is(.state-off, .state-unknown), body.state-off :is(.state-on, .state-unknown) { display: none; }

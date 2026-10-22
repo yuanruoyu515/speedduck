@@ -1,0 +1,17 @@
+.DS_Store
+build/
+DerivedData/
+node_modules/
+test-results/
+*.log
+*.xcuserstate
+xcuserdata/
+.env
+.env.*
+*.p12
+*.pfx
+*.key
+*.mobileprovision
+*.provisionprofile
+*.zip
+*.dmg

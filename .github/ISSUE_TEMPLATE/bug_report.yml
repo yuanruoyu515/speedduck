@@ -1,0 +1,23 @@
+name: 问题反馈 / Bug report
+description: 提供可复现的播放器、弹窗或安装问题。
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: 版本 / Versions
+      description: macOS、Safari 和 speedduck 的版本。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤 / Reproduction
+      description: 可附公开页面或最小示例。不要提交账号、访问令牌、私人页面或表单截图。
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 期望与实际结果 / Expected and actual behavior
+    validations:
+      required: true

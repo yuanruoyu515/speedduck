@@ -1,0 +1,23 @@
+{
+  "name": "speedduck",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Safari playback speed controller",
+  "scripts": {
+    "test": "node tests/background.test.cjs",
+    "test:browser": "node tests/browser.test.cjs",
+    "build:safari": "bash scripts/build.sh",
+    "check": "python3 scripts/check-project.py"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanruoyu515/speedduck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuanruoyu515/speedduck/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
