@@ -2,7 +2,7 @@
 
 ## 环境
 
-- 构建 Safari App：macOS 14+，完整 Xcode 和 Command Line Tools，Python 3。
+- 构建 Safari App：macOS 14+，Xcode 16.4+ 和 Command Line Tools，Python 3。
 - 使用扩展：Safari 18.4+。
 - 后台测试：Node.js 22+；不需要安装 npm 依赖。
 - 系统 WebKit 测试：需要支持 `WKWebExtension` 及 `webViewConfiguration` 的新版本 macOS / Xcode；本项目在 macOS 27 / Xcode 27 上完成验证。普通 App 构建不依赖这些测试 API。

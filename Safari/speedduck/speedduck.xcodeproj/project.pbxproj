@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 110;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -41,7 +41,7 @@
 		5A365E19308A9AD0006031E8 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			dstPath = "";
-			dstSubfolder = PlugIns;
+			dstSubfolderSpec = 13;
 			files = (
 				5A365E0D308A9AD0006031E8 /* speedduck Extension.appex in Embed Foundation Extensions */,
 			);
@@ -211,6 +211,7 @@
 				};
 			};
 			buildConfigurationList = 5A365DEC308A9ACF006031E8 /* Build configuration list for PBXProject "speedduck" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -218,8 +219,6 @@
 				Base,
 			);
 			mainGroup = 5A365DE8308A9ACF006031E8;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 5A365DF2308A9ACF006031E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

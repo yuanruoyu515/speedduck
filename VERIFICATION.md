@@ -13,3 +13,4 @@
 - Popup 1.0.1: presets, increment, numeric custom rate, reset, switches and details passed; no horizontal overflow; default popup fits 380×600 browser bounds. Chromium UI preview uses mocked hostname and player count; it is not evidence of actual Safari rendering.
 - No external commercial website playback has been independently verified yet; WebKit tests do not prove Safari extension message delivery on every website.
 - Published source and personal Safari app builds on GitHub; no App Store / Chrome Web Store submission or Developer ID notarization.
+- Public project uses Xcode 14-compatible project serialization so the native build can also be opened by Xcode 16.4; GitHub macOS build validates this separately from local Xcode 27.1.
