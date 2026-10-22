@@ -9,7 +9,7 @@
 一个带小鸭子的 Safari 倍速控制扩展。调速度、锁倍速，也记住你的习惯。
 
 [![Release](https://img.shields.io/github/v/release/yuanruoyu515/speedduck?style=flat-square&color=087bff)](https://github.com/yuanruoyu515/speedduck/releases/latest)
-[![Checks](https://github.com/yuanruoyu515/speedduck/actions/workflows/checks.yml/badge.svg)](https://github.com/yuanruoyu515/speedduck/actions/workflows/checks.yml)
+[![Checks](https://github.com/yuanruoyu515/speedduck/actions/workflows/checks.yml/badge.svg?branch=main&event=push)](https://github.com/yuanruoyu515/speedduck/actions/workflows/checks.yml)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-252628?style=flat-square&logo=apple&logoColor=white)
 ![Safari 18.4+](https://img.shields.io/badge/Safari-18.4%2B-087bff?style=flat-square&logo=safari&logoColor=white)
 [![MIT](https://img.shields.io/badge/Code-MIT-f3bd43?style=flat-square)](LICENSE)
